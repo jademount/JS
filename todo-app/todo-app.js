@@ -47,7 +47,10 @@ count.forEach(function (e) {
 })
 
 
-
+document.querySelector('button').addEventListener('click', function (e) {
+    console.log(e)
+    e.target.textContent = 'You have clicked!'
+})
 
 //const p = document.querySelectorAll('p')
 //p.forEach(function (p) {
